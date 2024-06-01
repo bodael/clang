@@ -25,7 +25,9 @@ def gethip():
     IpAddr = socket.gethostbyname(hostname)
     print(f"=>\033[35m your host name is:\033[39m \033[37m('{hostname}')\033[39m")
     print(f"=>\033[35m your Ip Addriss is:\033[39m (\033[37m{IpAddr})\033[39m")
-# todo=======================================================================
+
+
+
 
 if choose == '1':
     print('''\033[32m
@@ -45,7 +47,11 @@ $$$$$$/ $$$$$$$/        $$/      $$/  $$$$$$$/ $$$$$$$/  $$$$$$$/  $$/    $$$$/ 
     Ipwebsite = socket.gethostbyname(input("\033[33m=> Website Company is: ")).strip()
     print(f"\033[33m=> your Ip is:\033[39m (\033[37m\"{Ipwebsite}\")\033[39m")
     print(" =" * 23 , "Thanks Very much" , " =" * 23)
-# todo========================================================================
+
+
+
+
+
 
 elif choose == '2' :
     print('''\033[32m          _                  _   _                    
@@ -62,7 +68,10 @@ elif choose == '2' :
     port = socket.getservbyname(input("=> Enter Your Protocol is: "))
     print(f"=> your port is: (\"{port}\")")
     print(" =" * 23 , "Thanks Very much" , " =" * 23)
-# todo========================================================================
+
+
+
+
 
 
 elif choose == '3' :
@@ -82,7 +91,12 @@ Developed by Abdollah El-Fiqi
     print(f"=> The Required Protocol is: (\"{service}\")")
     print(" =" * 23 , "Thanks Very much" , " =" * 23)
 
-# todo=========================================================================
+
+
+
+
+
+
 
 elif choose == '4' :
     print(''' \033[32m
@@ -104,7 +118,12 @@ Developed by Abdollah El-Fiqi
     print(" =" * 23 , "Thanks Very much" , " =" * 23)
 
 
-    # todo=========================================================================
+    
+
+
+
+
+
 elif choose == '5':
     gethip()
 else:
